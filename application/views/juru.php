@@ -325,13 +325,5 @@
         var base_URL = "https://juru.co.id";
       </script>
       <script type="text/javascript" src="<?php echo base_url();?>assets/js/landing.min.js"></script>
-    
-<script type="text/javascript"> 
-    
-</script>
-
-
-
-
-</body>
+    </body>
 </html>

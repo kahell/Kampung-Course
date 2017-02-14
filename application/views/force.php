@@ -439,6 +439,6 @@
     .timeline-Widget {
         background-color: transparent; 
     }
-/style>
+</style>
 
     

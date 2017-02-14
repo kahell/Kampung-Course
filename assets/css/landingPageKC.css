@@ -1,0 +1,288 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #d9f6ff; /* Old browsers */
+    font-size: 14px;
+    color: #011e30;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.island{
+    width: 960px;
+    height: 553px;
+    position: relative;
+    overflow: hidden;
+    -webkit-animation: island 1s linear infinite alternate;
+    animation: island 1s linear infinite alternate;
+}
+.island img{
+    position: absolute;
+    bottom: 79px;
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+.island img.buliding-1 {
+    width: 406px;
+    height: 294px;
+    left: 20px;
+    bottom: 69px;
+    z-index: 1;
+}
+.island img.parkir {
+    z-index: 7;
+    left: 94px;
+    width: 260px
+}
+.island img.store {
+    z-index: 7;
+    left: 462px;
+    width: 87px;
+    bottom: 76px
+}
+.island img.car-parkir {
+    left: 66px;
+    z-index: 6
+}
+.island img.land{
+    width: 960px;
+    height: 80px;
+    left: 0;
+    bottom: 0;
+    z-index: 6;
+}
+
+.island .line {
+    transition: all .3s
+}
+island .line {
+    border-left: 2px solid #22c64d;
+    min-height: 100px;
+    top: 0;
+    position: absolute;
+    z-index: 8
+}
+island .line:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 60px;
+    top: 0;
+    left: 0;
+    background: #22c64d
+}
+island .logo-of-juru {
+    position: absolute;
+    left: 70px;
+    top: -13px
+}
+.island .island-content {
+    transition: all .3s;
+    height: 453px
+}
+.island:hover .island-content:not(:hover) img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.island .island-content.juru-parkir .content-of-juru {
+    top: 29px;
+    left: 219px
+}
+
+.island .island-content.juru-parkir .content-of-juru .line {
+    height: 250px
+}
+
+.island .island-content.juru-parkir:hover .content-of-juru {
+    top: 19px
+}
+
+.island .island-content.juru-parkir:hover .content-of-juru .line {
+    height: 260px
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: bounch;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounch{
+    0%   {transform: translateY(4px);}
+    25%   {transform: translateY(6px);}
+    50%  {transform: translateY(8px);}
+    75%   {transform: translateY(6px);}
+    100% {transform: translateY(4px);}
+}
+@-webkit-keyframes island {
+    to {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px)
+    }
+}
+
+@keyframes island {
+    to {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px)
+    }
+}
+
+.bounceInUp {
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp
+}
+@-webkit-keyframes bounceInUp {
+    0%,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0)
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+    75% {
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0)
+    }
+    90% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0)
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes bounceInUp {
+    0%,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0)
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+    75% {
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0)
+    }
+    90% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0)
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+@-webkit-keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        transform: perspective(400px) rotateX(90deg);
+        opacity: 0
+    }
+    0%,
+    40% {
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    40% {
+        -webkit-transform: perspective(400px) rotateX(-20deg);
+        transform: perspective(400px) rotateX(-20deg)
+    }
+    60% {
+        -webkit-transform: perspective(400px) rotateX(10deg);
+        transform: perspective(400px) rotateX(10deg);
+        opacity: 1
+    }
+    80% {
+        -webkit-transform: perspective(400px) rotateX(-5deg);
+        transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+@keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        transform: perspective(400px) rotateX(90deg);
+        opacity: 0
+    }
+    0%,
+    40% {
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    40% {
+        -webkit-transform: perspective(400px) rotateX(-20deg);
+        transform: perspective(400px) rotateX(-20deg)
+    }
+    60% {
+        -webkit-transform: perspective(400px) rotateX(10deg);
+        transform: perspective(400px) rotateX(10deg);
+        opacity: 1
+    }
+    80% {
+        -webkit-transform: perspective(400px) rotateX(-5deg);
+        transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+.flipInX {
+    -webkit-backface-visibility: visible!important;
+    backface-visibility: visible!important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX
+}
+
+@-webkit-keyframes blum {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes blum {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}

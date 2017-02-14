@@ -3303,97 +3303,97 @@ form.default-form .form-group {
     padding-bottom: 15px
 }
 
-.i-juru {
-    background: url(../images/juru-images-patterens.png) no-repeat;
+.kcIcon {
     background-size: 430px 280px;
-    display: inline-block
+    display: inline-block;
 }
 
-.i-juru.juru-logo {
+.kcIcon.kcLogo {
+    background: url(../assets/dist/images/logoKC.png);
     width: 200px;
     height: 77px;
     margin: 0 auto;
-    background-position: 0 0
+    background-position: 0 0;
 }
 
-.i-juru.juru-parkir {
+.kcIcon.juru-parkir {
     width: 120px;
     height: 28px;
     background-position: -201px -108px
 }
 
-.i-juru.juru-pasar {
+.kcIcon.juru-pasar {
     width: 120px;
     height: 28px;
     background-position: -201px -51px
 }
 
-.i-juru.juru-bersih {
+.kcIcon.juru-bersih {
     width: 120px;
     height: 28px;
     background-position: -201px -81px
 }
 
-.i-juru.juru-arrow {
+.kcIcon.juru-arrow {
     width: 50px;
     height: 50px;
     background-position: -201px 0
 }
 
-.i-juru.juru-close {
+.kcIcon.juru-close {
     width: 30px;
     height: 30px;
     background-position: -283px -138px
 }
 
-.i-juru.juru-manfaat-1 {
+.kcIcon.juru-manfaat-1 {
     background-position: -354px 0
 }
 
-.i-juru.juru-manfaat-2 {
+.kcIcon.juru-manfaat-2 {
     background-position: -252px 0
 }
 
-.i-juru.juru-manfaat-3 {
+.kcIcon.juru-manfaat-3 {
     background-position: -322px -51px
 }
 
-.i-juru.juru-solusi-1 {
+.kcIcon.juru-solusi-1 {
     background-position: -322px -102px
 }
 
-.i-juru.juru-solusi-2 {
+.kcIcon.juru-solusi-2 {
     background-position: -373px -52px
 }
 
-.i-juru.juru-solusi-3 {
+.kcIcon.juru-solusi-3 {
     background-position: -304px 0
 }
 
-.i-juru.juru-phone {
+.kcIcon.juru-phone {
     background-position: -242px -138px
 }
 
-.i-juru.juru-mail {
+.kcIcon.juru-mail {
     background-position: -201px -138px
 }
 
-.i-juru.juru-thanks {
+.kcIcon.juru-thanks {
     width: 200px;
     height: 121px;
     margin-bottom: 30px;
     background-position: 0 -78px
 }
 
-.i-juru.juru-parkir-square {
+.kcIcon.juru-parkir-square {
     background-position: 0 -200px
 }
 
-.i-juru.juru-pasar-square {
+.kcIcon.juru-pasar-square {
     background-position: -81px -200px
 }
 
-.i-juru.juru-bersih-square {
+.kcIcon.juru-bersih-square {
     background-position: -162px -200px
 }
 
@@ -3426,7 +3426,7 @@ body.no-scroll {
     }
 }
 
-.hello-juru {
+.kcStart {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -3442,12 +3442,12 @@ body.no-scroll {
     transition: all .5s
 }
 
-.hello-juru.hello-hide {
+.kcStart.hello-hide {
     -webkit-transform: translateX(-30%) scale(.5);
     transform: translateX(-30%) scale(.5)
 }
 
-.hello-juru header {
+.kcStart header {
     overflow: hidden;
     max-width: 800px;
     text-align: center;
@@ -3455,7 +3455,7 @@ body.no-scroll {
     padding: 0 0 20px
 }
 
-.hello-juru .shadow_island {
+.kcStart .shadow_island {
     width: 830px;
     margin: 0 auto;
     height: 5px;
@@ -3467,13 +3467,13 @@ body.no-scroll {
     opacity: .2
 }
 
-.hello-juru .island,
-.hello-juru .shadow_island {
+.kcStart .island,
+.kcStart .shadow_island {
     -webkit-transform: translateY(0);
     transform: translateY(0)
 }
 
-.hello-juru .island {
+.kcStart .island {
     width: 960px;
     height: 453px;
     position: relative;
@@ -3482,74 +3482,74 @@ body.no-scroll {
     animation: island 1s linear infinite alternate
 }
 
-.hello-juru .island .island-content {
+.kcStart .island .island-content {
     transition: all .3s;
     height: 453px
 }
 
-.hello-juru .island .island-content.juru-parkir .content-of-juru {
+.kcStart .island .island-content.juru-parkir .content-of-juru {
     top: 29px;
     left: 219px
 }
 
-.hello-juru .island .island-content.juru-parkir .content-of-juru .line {
+.kcStart .island .island-content.juru-parkir .content-of-juru .line {
     height: 250px
 }
 
-.hello-juru .island .island-content.juru-parkir:hover .content-of-juru {
+.kcStart .island .island-content.juru-parkir:hover .content-of-juru {
     top: 19px
 }
 
-.hello-juru .island .island-content.juru-parkir:hover .content-of-juru .line {
+.kcStart .island .island-content.juru-parkir:hover .content-of-juru .line {
     height: 260px
 }
 
-.hello-juru .island .island-content.juru-pasar .content-of-juru {
+.kcStart .island .island-content.juru-pasar .content-of-juru {
     left: 502px;
     top: 125px
 }
 
-.hello-juru .island .island-content.juru-pasar .content-of-juru .line {
+.kcStart .island .island-content.juru-pasar .content-of-juru .line {
     height: 159px
 }
 
-.hello-juru .island .island-content.juru-pasar:hover .content-of-juru {
+.kcStart .island .island-content.juru-pasar:hover .content-of-juru {
     top: 105px
 }
 
-.hello-juru .island .island-content.juru-pasar:hover .content-of-juru .line {
+.kcStart .island .island-content.juru-pasar:hover .content-of-juru .line {
     height: 179px
 }
 
-.hello-juru .island .island-content.juru-bersih .content-of-juru {
+.kcStart .island .island-content.juru-bersih .content-of-juru {
     right: 242px;
     top: 55px
 }
 
-.hello-juru .island .island-content.juru-bersih .content-of-juru .line {
+.kcStart .island .island-content.juru-bersih .content-of-juru .line {
     height: 270px
 }
 
-.hello-juru .island .island-content:hover .content-of-juru {
+.kcStart .island .island-content:hover .content-of-juru {
     top: 35px
 }
 
-.hello-juru .island .island-content:hover .content-of-juru .line {
+.kcStart .island .island-content:hover .content-of-juru .line {
     height: 290px
 }
 
-.hello-juru .island:hover .island-content:not(:hover) img {
+.kcStart .island:hover .island-content:not(:hover) img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%)
 }
 
-.hello-juru .island img {
+.kcStart .island img {
     position: absolute;
     bottom: 79px;
     transition: all .3s
 }
 
-.hello-juru .island img.land {
+.kcStart .island img.land {
     width: 960px;
     height: 80px;
     left: 0;
@@ -3557,7 +3557,7 @@ body.no-scroll {
     z-index: 6
 }
 
-.hello-juru .island img.buliding-1 {
+.kcStart .island img.buliding-1 {
     width: 406px;
     height: 294px;
     left: 20px;
@@ -3565,14 +3565,14 @@ body.no-scroll {
     z-index: 1
 }
 
-.hello-juru .island img.buliding-2 {
+.kcStart .island img.buliding-2 {
     width: 309px;
     height: 206px;
     left: 414px;
     z-index: 2
 }
 
-.hello-juru .island img.buliding-3 {
+.kcStart .island img.buliding-3 {
     width: 232px;
     height: 154px;
     right: 64px;
@@ -3580,37 +3580,37 @@ body.no-scroll {
     z-index: 3
 }
 
-.hello-juru .island img.parkir {
+.kcStart .island img.parkir {
     z-index: 7;
     left: 94px;
     width: 260px
 }
 
-.hello-juru .island img.store {
+.kcStart .island img.store {
     z-index: 7;
     left: 462px;
     width: 87px;
     bottom: 76px
 }
 
-.hello-juru .island img.car-bersih {
+.kcStart .island img.car-bersih {
     z-index: 7;
     right: 176px;
     width: 95px
 }
 
-.hello-juru .island img.car-parkir {
+.kcStart .island img.car-parkir {
     left: 66px;
     z-index: 6
 }
 
-.hello-juru .island img.car-pasar {
+.kcStart .island img.car-pasar {
     left: 393px;
     z-index: 8;
     width: 96px
 }
 
-.hello-juru .island .line {
+.kcStart .island .line {
     border-left: 2px solid #22c64d;
     min-height: 100px;
     top: 0;
@@ -3618,7 +3618,7 @@ body.no-scroll {
     z-index: 8
 }
 
-.hello-juru .island .line:after {
+.kcStart .island .line:after {
     position: absolute;
     content: "";
     height: 2px;
@@ -3628,19 +3628,19 @@ body.no-scroll {
     background: #22c64d
 }
 
-.hello-juru .island .logo-of-juru {
+.kcStart .island .logo-of-juru {
     position: absolute;
     left: 70px;
     top: -13px
 }
 
-.hello-juru .island .content-of-juru {
+.kcStart .island .content-of-juru {
     position: absolute;
     z-index: 9;
     transition: all .3s
 }
 
-.hello-juru .island .line {
+.kcStart .island .line {
     transition: all .3s
 }
 
@@ -3659,24 +3659,24 @@ body.no-scroll {
 }
 
 @media only screen and (max-width:480px) {
-    .hello-juru {
+    .kcStart {
         height: auto;
         min-height: inherit;
         padding: 30px 0
     }
-    .hello-juru,
-    .hello-juru.hello-hide {
+    .kcStart,
+    .kcStart.hello-hide {
         -webkit-transform: translateX(0) scale(1);
         transform: translateX(0) scale(1)
     }
-    .hello-juru .island,
-    .hello-juru .shadow_island {
+    .kcStart .island,
+    .kcStart .shadow_island {
         display: none
     }
 }
 
 @media only screen and (min-width:481px) and (max-width:1023px) {
-    .hello-juru {
+    .kcStart {
         min-height: initial;
         -webkit-transform: scale(.7);
         transform: scale(.7)
@@ -4009,7 +4009,7 @@ ul.list-content li article {
     position: absolute;
     width: 414px;
     height: 311px;
-    background: url(../images/img-soon.png) no-repeat 50%;
+    /*background: url(../dist/images/img-soon.png) no-repeat 50%;*/
     background-size: 100%;
     bottom: -35px;
     right: -80px;

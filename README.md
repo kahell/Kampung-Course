@@ -16,7 +16,7 @@ MVC (Model View Controller) - Code Igniter
 ## Running
 - Clone this repository
 - Activate your xamp / wamp
-- Open Localhost/kampung-course
+- Open your browser and type localhost/kampung-course
 
-## Priview
+## Preview
 check our website : [www.kampungcourse.com](http://www.kampungcourse.com/).

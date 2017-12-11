@@ -1,11 +1,22 @@
 # Kampung-Course
-Kampung Course 
+![Image of Kampung Course](https://raw.githubusercontent.com/kahell/Kampung-Course/master/preview/Kampung%20Course%20Logo%202.png)
 
-Kampung Course merupakan platform bagi lembaga kursus dan bimbingan belajar di Indonesia untuk membantu meningkatkan kualitas sumber daya manusia Indonesia agar dapat bersaing di tingkat lokal maupun internasional. - kampungcourse.com
+## Kampung Course 
+Kampung Course is a platform for course institutions and tutoring in Indonesia to help improve the quality of Indonesian human resources in order to compete locally and internationally. - kampungcourse.com
+'''
+Select the course you want and book the course with one click
+'''
+## Architecture
+MVC (Model View Controller) - Code Igniter
 
-Fitur Kampung Course:
-1. Kampung Kursus
-2. Kampung Tutor
-3. kampung Amal
+## Library Used
+- Admin LTE
+- Javascript
 
-check our website : www.kampungcourse.com
+## Running
+- Clone this repository
+- Activate your xamp / wamp
+- Open Localhost/kampung-course
+
+## Priview
+check our website : [KC pages](http://www.kampungcourse.com/).

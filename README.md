@@ -19,4 +19,4 @@ MVC (Model View Controller) - Code Igniter
 - Open Localhost/kampung-course
 
 ## Priview
-check our website : [KC pages](http://www.kampungcourse.com/).
+check our website : [www.kampungcourse.com](http://www.kampungcourse.com/).
